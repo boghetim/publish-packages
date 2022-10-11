@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 resource "docker_image" "nginx" {
-  name         = "nginx:latest"				//aanpassen
+  name         = "game:sha-03f7cd5"
   keep_locally = false
 }
 
